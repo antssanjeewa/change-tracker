@@ -6,7 +6,7 @@ Read your custom docblock comments and generate HTML API ChangeLog Documentation
 
 - Custom comment format parsing (`/** ... @Changes ... */`)
 - Beautiful Tailwind CSS HTML output
-- Laravel Artisan Command සහායෙන් භාවිතය
+- Laravel Artisan Command usage
 - Config file support (publishable)
 - Sidebar navigation සහිත Modern UI
 
@@ -19,23 +19,23 @@ composer require antssanjeewa/change-tracker:dev-main
 
 ## Usage
 
-### Artisan Command භාවිතය
+### Artisan Command 
 
 ```bash
-# Default භාවිතය
+# Default
 php artisan generate:changelog
 
-# Custom options සමග
+# Custom options 
 php artisan generate:changelog app/Http/Controllers public/api-docs.html
 ```
 
-### Config භාවිතය (Optional)
+### Config  (Optional)
 
 ```bash
 php artisan vendor:publish --tag=change-tracker-config
 ```
 
-ඊට පසු `config/change-tracker.php` ගොනුවේ default values වෙනස් කළ හැක.
+ after run this command create `config/change-tracker.php` .
 
 ## Example Comment Format
 
