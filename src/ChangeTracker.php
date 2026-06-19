@@ -45,7 +45,6 @@ class ChangeTracker
     $html = $this->htmlGenerator->generate($controllers);
     file_put_contents($output, $html);
 
-    echo "✅ Beautiful API Documentation generated successfully!\n";
     echo "📄 Output: " . realpath($output) . "\n";
   }
 

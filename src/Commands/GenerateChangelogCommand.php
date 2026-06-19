@@ -9,7 +9,7 @@ class GenerateChangelogCommand extends Command
 {
   protected $signature = 'generate:changelog 
                             {dirs? : Comma separated directories to scan (default from config)}
-                            {output=changelog.html : Output HTML file name}';
+                            {output=public/changelog.html : Output HTML file name}';
 
   protected $description = 'Generate beautiful HTML API ChangeLog Documentation from custom docblocks';
 
